@@ -3,7 +3,6 @@
 
 
 ======================================
-例題1
 求圓面積
 #!/usr/bin/env python
 
@@ -23,7 +22,6 @@ print("半徑", radius, "的圓面積為", area)
 
 
 ----------------------------------------
-例題2
 同時指定
 #!/usr/bin/env python
 #-*-coding:utf-8 -*-
@@ -41,7 +39,6 @@ print(number1, number2, number3,
 #輸出9.0
 
 -----------------------------------------
-例題3
 輸出:print
 
 >>> q = 259
@@ -49,8 +46,34 @@ print(number1, number2, number3,
 >>> print(q, p, p * q)
 #259 0.038 9.842
 >>> print(q, p, p * q, sep=",")
+#259,0.038,9.842
 >>> print(q, p, p * q, sep=" :-) ")
+#259:-)0.038:-)9.842
 >>> print(str(q) + " " + str(p) + " " + str(p * q))
+#259 0.038 9.842
+
+------------------------------------------
+格式化輸出Formatted Output
+http://www.runoob.com/python/att-string-format.html
+
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+ 
+print("{0} love {1}......{2}".format("I","listening","classical Music"))
+#I love listening classical Music
+ 
+#透過字典設置變數
+info={"name":"Amy", "grade": "100"}
+print("姓名：{name}, 成績:{grade}".format(**info))
+#姓名:Amy, 成績:100
+
+#透過列表設置變數
+my_list = ["Amy",'100']
+print("姓名: {0[0]}, 成績: {0[1]}".format(my_list))
+#姓名: Amy, 成績: 100
+
+-----------------------------------------------
+
 
 
 
