@@ -3,7 +3,12 @@
 
 
 ======================================
+{1}輸入與輸出 USER INPUTS AND OUTPUTS
+
+[1.1]輸入:input | Raw_input
+
 求圓面積
+--------------------------------------
 #!/usr/bin/env python
 
 #-*- coding:utf-8 –*-
@@ -19,10 +24,11 @@ area = radius * radius * 3.14159
 print("半徑", radius, "的圓面積為", area)
 #輸入10
 #輸出314.159
-
-
 ----------------------------------------
+
+
 同時指定
+----------------------------------------
 #!/usr/bin/env python
 #-*-coding:utf-8 -*-
 
@@ -37,10 +43,11 @@ print(number1, number2, number3,
     "的平均是", average)
 #輸入4,8,14
 #輸出9.0
+-----------------------------------------
+
+[1.2]輸出:print
 
 -----------------------------------------
-輸出:print
-
 >>> q = 259
 >>> p = 0.038
 >>> print(q, p, p * q)
@@ -51,11 +58,12 @@ print(number1, number2, number3,
 #259:-)0.038:-)9.842
 >>> print(str(q) + " " + str(p) + " " + str(p * q))
 #259 0.038 9.842
-
 ------------------------------------------
-格式化輸出Formatted Output
+
+[1.3]格式化輸出Formatted Output
 http://www.runoob.com/python/att-string-format.html
 
+------------------------------------------
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
  
@@ -71,8 +79,38 @@ print("姓名：{name}, 成績:{grade}".format(**info))
 my_list = ["Amy",'100']
 print("姓名: {0[0]}, 成績: {0[1]}".format(my_list))
 #姓名: Amy, 成績: 100
-
 -----------------------------------------------
+
+[1.4]運算子
+餘數運算子 (remainder|modulo)
+
+
+#以秒表示的總時間長，取得分鐘數及剩餘的秒數
+-----------------------------------------------
+#!/usr/bin/env python
+#-*-coding:utf-8-*-
+
+seconds = eval(input("輸入整數秒: "))
+minutes = seconds//60     # 分鐘
+remainingSeconds = seconds % 60   # 餘數==>秒
+print(seconds, "是", minutes,"分鐘又", remainingSeconds, "秒")
+#輸入9999
+#輸出9999是 166 分鐘又 39 秒
+---------------------------------------------------
+{2}資料結構
+
+
+
+
+
+
+{3}迴圈與選擇
+
+
+[3.1]選擇:If |if-else| ..沒有switch:
+
+
+
 
 
 
