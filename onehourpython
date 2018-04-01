@@ -39,8 +39,7 @@ number1, number2, number3 = eval(input("輸入三個以逗號分隔的數字: ")
 average = (number1 + number2 + number3) / 3
 
 #輸出
-print(number1, number2, number3,
-    "的平均是", average)
+print(number1, number2, number3,"的平均是", average)
 #輸入4,8,14
 #輸出9.0
 -----------------------------------------
@@ -108,6 +107,63 @@ print(seconds, "是", minutes,"分鐘又", remainingSeconds, "秒")
 
 
 [3.1]選擇:If |if-else| ..沒有switch:
+
+猜數字游戲
+----------------------------------------------------
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
+number = 1235784
+
+guess = int(input("輸入一整數 : "))
+
+if guess == number:
+  print ("你猜到了~~哈哈!") 
+  print ("flag: BreakALL{It is easy to write if statement}!" )
+elif guess < number:
+  print ("Nono~too small~" )
+else:
+  print ("Nope~lower!")
+
+print ("Done")
+-----------------------------------------------------
+
+-----------------------------------------------------
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+print("")
+print("西元年代對應到的十二生肖")
+print("")
+year = eval(input("請輸入你出生的年代: "))
+print("")
+zodiacYear = year % 12 
+if zodiacYear == 0:
+    print("monkey===猴子")
+elif zodiacYear == 1:
+    print("rooster雞")
+elif zodiacYear == 2:
+    print("dog狗")
+elif zodiacYear == 3:
+    print("pig豬")
+elif zodiacYear == 4: 
+    print("rat鼠")
+elif zodiacYear == 5: 
+    print("ox牛")
+elif zodiacYear == 6:
+    print("tiger虎")
+elif zodiacYear == 7:
+    print("rabbit兔")
+elif zodiacYear == 8:
+    print("dragon龍")
+elif zodiacYear == 9:
+    print("snake蛇")
+elif zodiacYear == 10:
+    print("horse馬")
+else: 
+    print("sheep羊")
+-----------------------------------------------------
+
+[3.2]for loop
 
 
 
