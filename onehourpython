@@ -1,0 +1,60 @@
+#一小時學python
+#2018/4/1
+
+
+======================================
+例題1
+求圓面積
+#!/usr/bin/env python
+
+#-*- coding:utf-8 –*-
+
+# radius = 20 #半徑等於20
+#輸入半徑
+radius = eval(input("輸入半徑: "))
+
+# 計算半徑
+area = radius * radius * 3.14159
+
+# 印出結果
+print("半徑", radius, "的圓面積為", area)
+#輸入10
+#輸出314.159
+
+
+----------------------------------------
+例題2
+同時指定
+#!/usr/bin/env python
+#-*-coding:utf-8 -*-
+
+#輸入number1,number2,number3
+number1, number2, number3 = eval(input("輸入三個以逗號分隔的數字: "))
+
+#計算平均
+average = (number1 + number2 + number3) / 3
+
+#輸出
+print(number1, number2, number3,
+    "的平均是", average)
+#輸入4,8,14
+#輸出9.0
+
+-----------------------------------------
+例題3
+輸出:print
+
+>>> q = 259
+>>> p = 0.038
+>>> print(q, p, p * q)
+#259 0.038 9.842
+>>> print(q, p, p * q, sep=",")
+>>> print(q, p, p * q, sep=" :-) ")
+>>> print(str(q) + " " + str(p) + " " + str(p * q))
+
+
+
+
+
+
+
