@@ -375,10 +375,44 @@ def swap(a,b):
 
 a=2
 b=3
+print("a =",a,",b =",b)
+#a = 2 , b = 3
 a,b=swap(a,b)
-print(a,b)
-#3 2
+print("a =",a,",b =",b)
+#a = 3 , b = 2
 ------------------------------------------------------------------
+
+------------------------------------------------------------------
+#!/usr/bin/python3
+# -*- coding: UTF-8 -*- 
+
+def crypt(source, key):
+    from itertools import cycle #載入itertools函式庫cycle函式
+    result = '' #結果將寫在result
+    temp = cycle(key)#key是HappyHackingHigh，所以temp分別是H,a,p,p,y,H,a,c,k,i,n,g,H,i,g,h
+    for ch in source: #字串ch在source裡
+        result = result + chr(ord(ch) ^ ord(next(temp))) #將ch和temp做xor運算然後加進result裡，next()下一個迭代，ord()轉ascii
+    return result
+
+source = 'BreakALLCTF_IknowhowtoXORRRRing'
+key = 'HappyHackingHigh'
+
+print('未加密的明文:'+source)
+encrypted = crypt(source, key)
+print('加密過的密文:'+encrypted)
+decrypted = crypt(encrypted, key)
+print('解密過的答案:'+decrypted)
+print('使用的金鑰:'+ key)
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
 
 
 
