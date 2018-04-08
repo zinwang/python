@@ -604,6 +604,60 @@ print (hashlib.sha512(a).hexdigest())
 #5d2845ae044290072845d42d3171dad3a5df60596edf2e3098d04c265b9c48f28ee649eda9b32349a7e74aee437e4bb6d5fb5278612b5afc7c4a7665dcd51497
 --------------------------------------------------------------------
 
+#Base64編碼與解碼
+--------------------------------------------------------------------
+import base64
+s = ‘FunnyCTF{BasE64 encoding is fufufufun!}'
+a = base64.b64encode(s)
+print a
+RnVubnlDVEZ7QmFzRTY0IGVuY29kaW5nIGlzIGZ1ZnVmdWZ1biF9
+print base64.b64decode(a)
+#FunnyCTF{BasE64 encoding is fufufufun!}
+c = base64.b32encode(s)
+print c
+#IZ2W43TZINKEM62CMFZUKNRUEBSW4Y3PMRUW4ZZANFZSAZTVMZ2WM5LGOVXCC7I=
+print base64.b32decode(c)
+#FunnyCTF{BasE64 encoding is fufufufun!}
+---------------------------------------------------------------------
+
+#binascii
+---------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
