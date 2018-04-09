@@ -622,7 +622,43 @@ print base64.b32decode(c)
 
 #binascii
 ---------------------------------------------------------------------
+#!/usr/bin/python3
+#-*- coding:utf-8 -*-
+import binascii
+a = b'HappyCTF{Useful tools binascii}'
+b = binascii.b2a_hex(a)
+print (b)
+print (binascii.a2b_hex(b))
+c = binascii.hexlify(a)
+print (c)
+print (binascii.unhexlify(c))
+---------------------------------------------------------------------
+[6]第三方模組[1][2][3][4]5[6][7]......[X]
+需要安裝,也要import
 
+PyPI - the Python Package Index
+https://pypi.python.org/pypi
+-------------------------------------
+安裝模組:
+pip list
+pip install XXXXX
+pip uninstall XXXXX
+pip install --upgrade XXXX  #升級模組
+-------------------------------------
+pycrypto
+pycrypto 2.6.1
+Cryptographic modules for Python.
+
+
+[7]各種類型檔案存取[1][2][3][4]5[6][7]
+
+=============================================
+【Python 練習範例98】
+從鍵盤輸入一個字串，將小寫字母全部轉換成大寫字母，
+然後輸出到一個檔"test"中保存。
+Python 2.7:OK
+Python 3.6
+=============================================
 
 
 
