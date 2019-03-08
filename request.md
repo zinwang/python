@@ -75,7 +75,7 @@ r = requests.get('http://cowsay.morecode.org/say', params = my_params)
 
 ```python
 my_params = {'message': 'hi', 'format': 'text'}
-#參數message的數值就是hello,format的數值就是html
+#參數message的數值就是hello,format的數值就是
 
 # 將查詢參數加入 GET 請求中
 r = requests.get('http://cowsay.morecode.org/say', params = my_params)
