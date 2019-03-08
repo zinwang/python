@@ -8,6 +8,11 @@ my_params = {'key1': 'value1', 'key2': 'value2'}
 r = requests.get('http://httpbin.org/get', params = my_params)
 ```
 <br/>
-因為是使用get method,所以資料是直接接在網址後
-而my_params為一個字典儲存者要request出去的資料
+因為是使用get method,所以資料是直接接在網址後<br/>
+而my_params為一個字典儲存者要request出去的資料,<br/>
+key1與key2為http://httpbin.org/get的get參數,<br/>
+value1與value2為你想送上去的數值°<br/><br/>
+
+我在舉另外一個實例能
+
 
