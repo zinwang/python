@@ -39,7 +39,7 @@ http://cowsay.morecode.org/
 
 <br/>
 這個網站基本上可以輸入文字，然後會產生一有趣的文字藝術<br/>
-輸入文字並選擇格式後按下Cowify<br/>
+輸入文字並選擇輸出格式後按下Cowify<br/>
 <br/>
 
 ![](https://github.com/zinwang/python/blob/master/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(209).png)
@@ -49,6 +49,25 @@ http://cowsay.morecode.org/
 然後會出現
 
 <br/>
-![]()
+
+![](https://github.com/zinwang/python/blob/master/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(210).png)
+
+<br/>
+看到問號後面有兩個參數message 和format<br/>
+這就是要request的資料<br/>
+
+<br/>
+所以，如果我們要用python requests模組來get這個頁面<br/>
+我們應該寫:<br/>
+
+```
+my_params = {'message': 'hello', 'format': 'html'}
+
+# 將查詢參數加入 GET 請求中
+r = requests.get('http://cowsay.morecode.org/say', params = my_params)
+```
+
+
+
 
 
