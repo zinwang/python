@@ -30,7 +30,7 @@ value1與value2為你想送上去的數值°<br/><br/>
 
 我再舉另外一個實例:<br/>
 
-https://helloacm.com/cowsay/
+http://cowsay.morecode.org/
 
 <br/>
 這是我vcraw工具第六個選項彩蛋所爬取的網站,<br/>
@@ -38,4 +38,7 @@ https://helloacm.com/cowsay/
 所以暫時當他沒有反爬機制
 
 <br/>
+這個網站基本上可以輸入文字，然後會產生一有趣的文字藝術<br/>
+
+
 
