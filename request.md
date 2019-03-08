@@ -20,15 +20,18 @@ http://httpbin.org/get?key1=value1&key2=value2
 當然行的通,可是在python不能這麼做,所以我們要透過requests.get()來幫我們達成:<br/>
 <br/>
 requests.get()需要兩個參數:<br/>
-第一個參數是放網址,也就是問號前的那串網址<br/>
-第二個參數是放要傳送的資料,也就是問號後的東西<br/>
+第一個參數是放網址,也就是問號前的那串網址,必須為字串<br/>
+第二個參數是放要傳送的資料,也就是問號後的東西,必須為字典<br/>
 
 
 而my_params為一個字典儲存者要request出去的資料,<br/>
 key1與key2為http://httpbin.org/get的get參數,<br/>
 value1與value2為你想送上去的數值°<br/><br/>
 
-我再舉另外一個實例:
+我再舉另外一個實例:<br/>
 
+https://helloacm.com/cowsay/
 
+<br/>
+這是我vcraw工具第六個選項彩蛋所爬取的網站,<br/>
 
