@@ -10,10 +10,12 @@ r = requests.get('http://httpbin.org/get', params = my_params)
 <br/>
 因為是使用get method,所以資料是直接接在網址後<br/>
 我們想達成以下結果:
+
 ```
 http://httpbin.org/get?key1=value1&key2=value2
 #注意那個問號,看見問號就知道是get method,然後問號後面就是要傳送的資料
 ```
+
 但不能直接就把上面這串網址拿去request,如果直接在瀏覽器網址欄貼上上面這串網址<br/>
 當然行的通,可是在python不能這麼做,所以我們要透過requests.get()來幫我們達成:<br/>
 <br/>
