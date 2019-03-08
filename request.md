@@ -34,4 +34,8 @@ https://helloacm.com/cowsay/
 
 <br/>
 這是我vcraw工具第六個選項彩蛋所爬取的網站,<br/>
+這個網站有反爬機制,但這裡只是要解說requests使用方法<br/>
+所以暫時當他沒有反爬機制
+
+<br/>
 
