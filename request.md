@@ -83,7 +83,7 @@ r = requests.get('http://cowsay.morecode.org/say', params = my_params)
 
 
 <br/>
-結果大概會是這樣
+在瀏覽器大概會是這樣
 
 <br/>
 
