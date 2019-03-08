@@ -85,3 +85,13 @@ r = requests.get('http://cowsay.morecode.org/say', params = my_params)
 結果大概會是這樣
 
 <br/>
+
+![](https://github.com/zinwang/python/blob/master/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(211).png)
+
+<br/>
+註:這個網站有作反爬機制，還需要繞過才能用python爬取資料
+
+
+<br/>
+<br/>
+
