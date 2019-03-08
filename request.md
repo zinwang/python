@@ -1,4 +1,4 @@
-#python  request 用法
+# python  request 用法
 
 對於這段code的解釋:
 ```
