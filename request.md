@@ -25,7 +25,7 @@ requests.get()需要兩個參數:<br/>
 
 
 而my_params為一個字典儲存者要request出去的資料,<br/>
-key1與key2為http://httpbin.org/get的get參數,<br/>
+key1與key2為http://httpbin.org/get 的get參數名稱,<br/>
 value1與value2為你想送上去的數值°<br/><br/>
 
 我再舉另外一個實例:<br/>
