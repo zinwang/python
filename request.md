@@ -39,6 +39,8 @@ http://cowsay.morecode.org/
 
 <br/>
 這個網站基本上可以輸入文字，然後會產生一有趣的文字藝術<br/>
+輸入文字並選擇格式後按下Cowify<br/>
+<br/>
 
 ![](https://github.com/zinwang/python/blob/master/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(209).png)
 
