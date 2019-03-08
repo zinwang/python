@@ -14,7 +14,8 @@ r = requests.get('http://httpbin.org/get', params = my_params)
 
 ```
 http://httpbin.org/get?key1=value1&key2=value2
-#注意那個問號,看見問號就知道是get method,然後問號後面就是要傳送的資料
+                      ^
+#注意這個問號,看見問號就知道是get method,然後問號後面就是要傳送的資料
 ```
 
 但不能直接就把上面這串網址拿去request,<br/>如果直接在瀏覽器網址欄貼上上面這串網址當然行的通,
